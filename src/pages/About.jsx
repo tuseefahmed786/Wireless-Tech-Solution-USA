@@ -36,7 +36,7 @@ export default function About(){
           </section>
 
           {/* Mission & Vision */}
-          <section style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:40}}>
+          <section className="two-col" style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:40}}>
             <div className="about-card mission-card">
               <div className="card-icon">🎯</div>
               <h2 style={{marginBottom:'18px',fontSize:'1.6rem'}}>Our Mission</h2>
