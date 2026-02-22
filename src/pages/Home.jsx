@@ -1,0 +1,56 @@
+import React from 'react'
+import Hero from '../components/Hero'
+import ServiceCard from '../components/ServiceCard'
+import FeatureBlock from '../components/FeatureBlock'
+
+export default function Home(){
+  return (
+    <div>
+      <Hero />
+      <section className="services container" style={{padding:'72px 0'}}>
+        <div>
+          <h2 style={{marginBottom:8}}>Our Services</h2>
+          <p style={{marginTop:0,color:'var(--gray-700)',maxWidth:760}}>We provide end-to-end wireless, IT infrastructure, and web services tailored to your business needs — from planning and cabling to cloud, security, and full-stack web solutions.</p>
+
+          <div className="services-grid">
+            <ServiceCard icon={"📡"} title="Wireless Network Installation">Design and deploy secure Wi‑Fi for offices, retail and warehouses with coverage and performance guarantees.</ServiceCard>
+            <ServiceCard icon={"🔌"} title="Structured Cabling">Cat6, Cat6A and fiber optic cabling, professional termination and testing for long-term reliability.</ServiceCard>
+            <ServiceCard icon={"🛠️"} title="IT Support & Maintenance">Proactive monitoring, patching, and rapid troubleshooting to keep systems online and secure.</ServiceCard>
+            <ServiceCard icon={"📹"} title="Security & Surveillance">CCTV, access control and integrated monitoring tailored to your site and compliance needs.</ServiceCard>
+            <ServiceCard icon={"☁️"} title="Cloud & Data Solutions">Backups, disaster recovery and secure cloud migrations to protect your critical data.</ServiceCard>
+            <ServiceCard icon={"💻"} title="Web Development">Custom web apps, e-commerce, and API integrations that scale with your business.</ServiceCard>
+            <ServiceCard icon={"🎨"} title="Web Design">Conversion-focused UI/UX, branding and responsive design that strengthens your online presence.</ServiceCard>
+          </div>
+        </div>
+      </section>
+
+      <section className="iptv-showcase container" style={{padding:'80px 40px'}}>
+        <div className="iptv-content">
+          <h2 style={{marginBottom:20,fontSize:'2.4rem'}}>Premium IPTV Services</h2>
+          <p style={{marginTop:0,color:'var(--gray-600)',fontSize:'1.1rem',lineHeight:1.7,marginBottom:24,maxWidth:800}}>Transform the way you experience television with our cutting-edge Premium IPTV services. Step into a new era of digital entertainment designed for speed, clarity, and reliability.</p>
+          <p style={{color:'var(--gray-600)',fontSize:'1.1rem',lineHeight:1.7,marginBottom:0,maxWidth:800}}>Gain instant access to over 1,500+ HD & SD live channels streaming from the USA, Europe, UAE, and countries worldwide. From sports and movies to international news and premium entertainment, everything you love is available at your fingertips.</p>
+        </div>
+      </section>
+
+      <section className="features container">
+        <h2>Why Choose Us</h2>
+        <div className="feature-grid">
+          <FeatureBlock title="Certified Technicians">Our team is certified and continually trained on latest systems.</FeatureBlock>
+          <FeatureBlock title="Fast Response Time">Rapid support and maintenance to minimize downtime.</FeatureBlock>
+          <FeatureBlock title="Affordable Pricing">Transparent and competitive pricing for projects of any size.</FeatureBlock>
+          <FeatureBlock title="Scalable Solutions">Designs that grow with your business and future needs.</FeatureBlock>
+        </div>
+      </section>
+
+      <section className="about-preview container about-preview">
+        <div style={{flex:1}}>
+          <h2>About Wireless Tech Solution USA</h2>
+          <p>Wireless Tech Solution USA LLC delivers professional wireless and IT infrastructure services focused on reliability, security, and customer satisfaction. Serving New Jersey and surrounding areas with tailored solutions.</p>
+          <a className="btn btn-primary" href="/about">Learn More</a>
+        </div>
+      </section>
+
+
+    </div>
+  )
+}
