@@ -1,0 +1,42 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1F45"/>
+      <stop offset="1" stop-color="#071633"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1B4E9A" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0D3270" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="30" fill="url(#bg)"/>
+
+  <g opacity="0.8" stroke="#5EA8FF" stroke-width="2">
+    <path d="M170 230H1030"/>
+    <path d="M170 450H1030"/>
+    <path d="M170 670H1030"/>
+    <path d="M360 150V750"/>
+    <path d="M600 150V750"/>
+    <path d="M840 150V750"/>
+  </g>
+
+  <g>
+    <rect x="210" y="190" width="260" height="150" rx="18" fill="url(#card)"/>
+    <rect x="520" y="250" width="260" height="150" rx="18" fill="url(#card)"/>
+    <rect x="780" y="500" width="240" height="140" rx="18" fill="url(#card)"/>
+    <rect x="250" y="520" width="260" height="150" rx="18" fill="url(#card)"/>
+  </g>
+
+  <g fill="#DCEEFF" opacity="0.9">
+    <circle cx="285" cy="238" r="7"/>
+    <circle cx="560" cy="298" r="7"/>
+    <circle cx="820" cy="548" r="7"/>
+    <circle cx="290" cy="568" r="7"/>
+  </g>
+
+  <g stroke="#9DCAFF" stroke-width="3" opacity="0.8">
+    <path d="M292 238L560 298L820 548"/>
+    <path d="M560 298L292 568"/>
+  </g>
+</svg>

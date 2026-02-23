@@ -26,11 +26,8 @@ export default function About(){
                   From small businesses to enterprise clients, we've built lasting partnerships by consistently delivering results and exceeding expectations.
                 </p>
               </div>
-              <div style={{background:'linear-gradient(135deg, rgba(0,102,255,0.1), rgba(99,102,241,0.05))',borderRadius:'20px',padding:'40px',border:'1px solid rgba(0,102,255,0.1)',minHeight:300,display:'flex',alignItems:'center',justifyContent:'center'}}>
-                <div style={{textAlign:'center'}}>
-                  <div style={{fontSize:'4rem',marginBottom:16}}>🚀</div>
-                  <p style={{fontSize:'1.1rem',color:'var(--gray-700)',fontWeight:500}}>Innovating wireless solutions since day one</p>
-                </div>
+              <div className="about-story-media">
+                <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1400&q=80" alt="Structured digital infrastructure layout" loading="lazy" />
               </div>
             </div>
           </section>
@@ -77,8 +74,8 @@ export default function About(){
           <section>
             <h2 style={{marginBottom:'48px',fontSize:'2.2rem',textAlign:'center'}}>Meet Our Team</h2>
             <div className="team-placeholder">
-              <div style={{textAlign:'center'}}>
-                <div style={{fontSize:'3.5rem',marginBottom:'16px'}}>👥</div>
+              <img className="team-image" src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80" alt="Wireless Tech professional team" loading="lazy" />
+              <div className="team-overlay">
                 <div style={{fontSize:'1.3rem',fontWeight:600,marginBottom:'12px'}}>Dedicated Professional Team</div>
                 <div style={{fontSize:'1rem',opacity:0.85}}>Expert technicians and specialists ready to serve you</div>
               </div>

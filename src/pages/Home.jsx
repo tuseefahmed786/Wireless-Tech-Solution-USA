@@ -7,6 +7,20 @@ export default function Home(){
   return (
     <div>
       <Hero />
+
+      <section className="iptv-showcase container" style={{padding:'80px 40px', marginTop:80}}>
+        <div className="iptv-showcase-inner">
+          <div className="iptv-content">
+            <h2 style={{marginBottom:20,fontSize:'2.4rem'}}>Premium IPTV Services</h2>
+            <p style={{marginTop:0,color:'var(--gray-600)',fontSize:'1.1rem',lineHeight:1.7,marginBottom:24,maxWidth:800}}>Transform the way you experience television with our cutting-edge Premium IPTV services. Step into a new era of digital entertainment designed for speed, clarity, and reliability.</p>
+            <p style={{color:'var(--gray-600)',fontSize:'1.1rem',lineHeight:1.7,marginBottom:0,maxWidth:800}}>Gain instant access to over 1,500+ HD & SD live channels streaming from the USA, Europe, UAE, and countries worldwide. From sports and movies to international news and premium entertainment, everything you love is available at your fingertips.</p>
+          </div>
+          <div className="iptv-media">
+            <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1400&q=80" alt="Premium IPTV streaming interface" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
       <section className="services container" style={{padding:'72px 0'}}>
         <div>
           <h2 style={{marginBottom:8}}>Our Services</h2>
@@ -24,13 +38,7 @@ export default function Home(){
         </div>
       </section>
 
-      <section className="iptv-showcase container" style={{padding:'80px 40px'}}>
-        <div className="iptv-content">
-          <h2 style={{marginBottom:20,fontSize:'2.4rem'}}>Premium IPTV Services</h2>
-          <p style={{marginTop:0,color:'var(--gray-600)',fontSize:'1.1rem',lineHeight:1.7,marginBottom:24,maxWidth:800}}>Transform the way you experience television with our cutting-edge Premium IPTV services. Step into a new era of digital entertainment designed for speed, clarity, and reliability.</p>
-          <p style={{color:'var(--gray-600)',fontSize:'1.1rem',lineHeight:1.7,marginBottom:0,maxWidth:800}}>Gain instant access to over 1,500+ HD & SD live channels streaming from the USA, Europe, UAE, and countries worldwide. From sports and movies to international news and premium entertainment, everything you love is available at your fingertips.</p>
-        </div>
-      </section>
+
 
       <section className="features container">
         <h2>Why Choose Us</h2>
@@ -47,6 +55,9 @@ export default function Home(){
           <h2>About Wireless Tech Solution USA</h2>
           <p>Wireless Tech Solution USA LLC delivers professional wireless and IT infrastructure services focused on reliability, security, and customer satisfaction. Serving New Jersey and surrounding areas with tailored solutions.</p>
           <a className="btn btn-primary" href="/about">Learn More</a>
+        </div>
+        <div className="about-preview-media">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80" alt="Professional team collaboration" loading="lazy" />
         </div>
       </section>
 

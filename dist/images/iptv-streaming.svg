@@ -1,0 +1,43 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111C35"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="260" y1="210" x2="940" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E90FF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0052CC" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="300" y1="460" x2="900" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8EDFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D8EDFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#D8EDFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+
+  <rect x="250" y="180" width="700" height="500" rx="28" fill="#0B1225" stroke="#2A4A7A" stroke-width="2"/>
+  <rect x="280" y="210" width="640" height="420" rx="20" fill="url(#screen)"/>
+
+  <g opacity="0.7">
+    <rect x="320" y="286" width="220" height="18" rx="9" fill="#E6F2FF" fill-opacity="0.55"/>
+    <rect x="320" y="328" width="320" height="14" rx="7" fill="#E6F2FF" fill-opacity="0.45"/>
+    <rect x="320" y="362" width="260" height="14" rx="7" fill="#E6F2FF" fill-opacity="0.38"/>
+  </g>
+
+  <circle cx="690" cy="390" r="82" fill="#EAF5FF" fill-opacity="0.22"/>
+  <path d="M670 350L742 390L670 430V350Z" fill="#F7FBFF"/>
+
+  <path d="M300 460H900" stroke="url(#pulse)" stroke-width="4"/>
+
+  <rect x="520" y="706" width="160" height="20" rx="10" fill="#273959"/>
+  <rect x="585" y="680" width="30" height="34" rx="8" fill="#334D75"/>
+
+  <g opacity="0.75" stroke="#89C0FF" stroke-width="2">
+    <path d="M180 610C240 570 290 570 350 610"/>
+    <path d="M140 645C220 585 320 585 400 645"/>
+    <path d="M1030 610C970 570 920 570 860 610"/>
+    <path d="M1065 645C985 585 885 585 805 645"/>
+  </g>
+</svg>
