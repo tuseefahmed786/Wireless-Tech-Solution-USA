@@ -62,7 +62,7 @@ export default function Services(){
         icon="🔌"
         title="Structured Cabling"
         bullets={['Cat6 & Cat6A installation','Fiber optic termination','Low-voltage cabling','Code-compliant installations','Professional documentation']}
-        imageSrc="https://images.unsplash.com/photo-1581091012184-5c5c6c6f9e32?auto=format&fit=crop&w=1200&q=80"
+        imageSrc="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80"
         imageAlt="Structured cabling and server rack infrastructure"
       >
         <p style={{fontSize:'1.05rem',color:'var(--gray-700)',lineHeight:'1.8'}}>

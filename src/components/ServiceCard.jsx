@@ -1,8 +1,13 @@
 import React from 'react'
 
-export default function ServiceCard({icon, title, children}){
+export default function ServiceCard({icon, title, children, imageSrc, imageAlt}){
   return (
     <div className="service-card">
+      {imageSrc && (
+        <div className="service-card__image">
+          <img src={imageSrc} alt={imageAlt || ''} loading="lazy" />
+        </div>
+      )}
       <div style={{display:'flex',alignItems:'center',gap:12}}>
         <div className="icon">{icon}</div>
         <div>

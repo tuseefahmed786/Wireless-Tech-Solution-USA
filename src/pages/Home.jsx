@@ -27,13 +27,62 @@ export default function Home(){
           <p style={{marginTop:0,color:'var(--gray-700)',maxWidth:760}}>We provide end-to-end wireless, IT infrastructure, and web services tailored to your business needs — from planning and cabling to cloud, security, and full-stack web solutions.</p>
 
           <div className="services-grid">
-            <ServiceCard icon={"📡"} title="Wireless Network Installation">Design and deploy secure Wi‑Fi for offices, retail and warehouses with coverage and performance guarantees.</ServiceCard>
-            <ServiceCard icon={"🔌"} title="Structured Cabling">Cat6, Cat6A and fiber optic cabling, professional termination and testing for long-term reliability.</ServiceCard>
-            <ServiceCard icon={"🛠️"} title="IT Support & Maintenance">Proactive monitoring, patching, and rapid troubleshooting to keep systems online and secure.</ServiceCard>
-            <ServiceCard icon={"📹"} title="Security & Surveillance">CCTV, access control and integrated monitoring tailored to your site and compliance needs.</ServiceCard>
-            <ServiceCard icon={"☁️"} title="Cloud & Data Solutions">Backups, disaster recovery and secure cloud migrations to protect your critical data.</ServiceCard>
-            <ServiceCard icon={"💻"} title="Web Development">Custom web apps, e-commerce, and API integrations that scale with your business.</ServiceCard>
-            <ServiceCard icon={"🎨"} title="Web Design">Conversion-focused UI/UX, branding and responsive design that strengthens your online presence.</ServiceCard>
+            <ServiceCard
+              icon={"📡"}
+              title="Wireless Network Installation"
+              imageSrc="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80"
+              imageAlt="Wireless network equipment"
+            >
+              Design and deploy secure Wi‑Fi for offices, retail and warehouses with coverage and performance guarantees.
+            </ServiceCard>
+            <ServiceCard
+              icon={"🔌"}
+              title="Structured Cabling"
+              imageSrc="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=900&q=80"
+              imageAlt="Structured cabling and server racks"
+            >
+              Cat6, Cat6A and fiber optic cabling, professional termination and testing for long-term reliability.
+            </ServiceCard>
+            <ServiceCard
+              icon={"🛠️"}
+              title="IT Support & Maintenance"
+              imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+              imageAlt="IT support team in meeting"
+            >
+              Proactive monitoring, patching, and rapid troubleshooting to keep systems online and secure.
+            </ServiceCard>
+            <ServiceCard
+              icon={"📹"}
+              title="Security & Surveillance"
+              imageSrc="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=900&q=80"
+              imageAlt="Security camera monitoring"
+            >
+              CCTV, access control and integrated monitoring tailored to your site and compliance needs.
+            </ServiceCard>
+            <ServiceCard
+              icon={"☁️"}
+              title="Cloud & Data Solutions"
+              imageSrc="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80"
+              imageAlt="Cloud data visualization"
+            >
+              Backups, disaster recovery and secure cloud migrations to protect your critical data.
+            </ServiceCard>
+            <ServiceCard
+              icon={"💻"}
+              title="Web Development"
+              imageSrc="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80"
+              imageAlt="Web development code"
+            >
+              Custom web apps, e-commerce, and API integrations that scale with your business.
+            </ServiceCard>
+            <ServiceCard
+              icon={"🎨"}
+              title="Web Design"
+              imageSrc="https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=900&q=80"
+              imageAlt="Designer working on interface"
+            >
+              Conversion-focused UI/UX, branding and responsive design that strengthens your online presence.
+            </ServiceCard>
           </div>
         </div>
       </section>
